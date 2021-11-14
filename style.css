@@ -1,0 +1,31 @@
+.Numbered_list{
+    list-style-type: lower-roman;
+}
+.Bullet_style{
+    list-style-type: inherit;
+}
+.Numericals_list{
+    list-style-type: upper-greek;
+}
+img{
+    float: right;
+}
+.display_section1{
+    display: inline-block;
+    width: 33%;
+    text-align: initial;
+    
+    vertical-align: top;
+    
+}
+
+.content{
+    width: 100%;
+    background-color: linen;
+}
+.display_section2{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+  
+}
