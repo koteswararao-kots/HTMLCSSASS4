@@ -1,0 +1,10 @@
+.content,.image-container{
+    display: block;
+}
+.content{
+    background-color: lightcyan;
+}
+
+img{
+    float: right;
+}
