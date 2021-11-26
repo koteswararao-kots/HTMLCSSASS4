@@ -1,7 +1,54 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
-}
+#container {
+    margin: 50px;
+    border: 1px solid;
+    }
+    header{
+        background-color: cadetblue;
+        margin: 20px;
+    
+    }
+    .header-section{
+        display: inline-block;
+    }
+    .header-section img{
+        width: 100px;
+        height: 100px;
+    
+    }
+    .header-section:nth-child(2){
+        float: right;
+    }
+    ul{
+        list-style: none;
+        text-align: center;
+    }
+    .navbar{
+        border: 1px solid;
+        margin: 20px;
+    }
+    .navbar ul li{
+        display: inline-block;
+        margin: 0 20px;
+    
+    
+    }
+    .content-section{
+        display: flex;
+        margin: 20px;
+        border: 1px solid;
+    }
+    .content section img{
+        width: 100px;
+        height: 100px;
+        margin: 10px 10px;
+    }
+    aside ul li{
+        text-align: center;
+    }
+    #page-footer{
+        margin: 20px;
+        border: 1px solid;
+    }
